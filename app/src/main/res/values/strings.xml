@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MyMoney</string>
+    <string name="title_activity_main__tab_">MainActivity_Tab_</string>
+    <string name="title1_0_tab1">جولة سريعة</string>
+    <string name="title1_1_tab1">في التطبيق </string>
+    <string name="title2_tab1">مرر بهذا الاتجاه للمتابعة</string>
+    <string name="title1_tab2">هذا الحساب الشخصي والذي يضاف إليه الراتب الشخصي وتخصم منه المصاريف</string>
+    <string name="title2_0_tab2">لا تنسي أن تقوم بضبط رصيدك من الأموال لكي تتمكن من متابعته دائما دون الرجوع لموقع البنك أو الذهاب إلي الصراف الآلي !</string>
+    <string name="title2_1_tab2"> توضيح</string>
+    <string name="title1_tab3">هنا حساب المدخرات والذي من خلاله تستطيع تنمية مدخراتك بكل سهولة</string>
+    <string name="title1_tab4">بضغطات بسيطة تستطيع إدخال مصاريفك من هنا</string>
+    <string name="title1_tab5">من هنا راح تكتشف بالضبط وين يطير راتبك ! تابع إحصائيات صرفك خلال الشهر الحالي وأيضا الشهور الماضية والسنوات</string>
+    <string name="title1_tab6">من هنا تستطيع إعداد التطبيق بالطريقة التي تناسبك</string>
+    <string name="title1_0_tab7">وأخيرا</string>
+    <string name="title1_1_tab7">ادر الهاتف علي الوضع الأفقي للتحقق من رصيدك الأسبوعي</string>
+    <string name="title2_0_tab7">الرصيد الأسبوعي ببساطة :</string>
+    <string name="title2_1_tab7">هو أسلوب يجعلك تحافظ علي توازنك في الصرف خلال الشهر عن طريق تقسيم الراتب الشهري علي الأسابيع الأربعة بعد خصم الأقساط الادخارية والإلتزامات الشهرية التي يتوجب عليك دفعها دائماً</string>
+
 </resources>
