@@ -4,10 +4,228 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/darker_gray"
     tools:context="com.example.hindahmed.mymoney.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:titleTextColor="@color/colorAccent"
+        android:background="@color/colorPrimary">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal|center">
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/border2"
+                android:textColor="@android:color/holo_green_dark"
+                 />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:text="@string/el_Mod5atrat"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/border2"
+                android:textColor="@android:color/holo_green_dark"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:text="@string/el_raseed"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/liner_tkweem"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center_vertical|end"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="يوليو   2017"
+            android:gravity="center_horizontal|center" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_input_add" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_vertical|end"
+        android:layout_below="@id/liner_tkweem"
+        android:weightSum="1"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:text="باقي   29  يوم"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/small_font"
+            android:paddingLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1/7/2017-30/7/2017"
+            android:textSize="@dimen/small_font"
+            android:textColor="@android:color/darker_gray"
+            android:paddingRight="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/white"
+        >
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:text="_"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المتبقي من الدخل"
+                android:textSize="@dimen/small_font"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:text="_"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإدخار"
+                android:textSize="@dimen/small_font"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:text="_"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المصاريف"
+                android:textSize="@dimen/small_font"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:background="@color/dark_grey"
+    android:layout_alignParentRight="false"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentEnd="false"
+    android:gravity="center_vertical|center_horizontal|end"
+    android:weightSum="1"
+    >
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="تم"
+        android:textColor="@android:color/darker_gray"
+        android:layout_weight="0.22"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/border4"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:background="@drawable/border3"
+        android:text="أنا ملابس"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.41"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:background="@drawable/border3"
+        android:text="0.00"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.31"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
 </RelativeLayout>
